@@ -1,0 +1,7 @@
+import random
+import colorama
+from colorama import Fore, Back, Style
+colours = [Fore.RED, Fore.GREEN, Fore.WHITE, Fore.CYAN, Fore.YELLOW, Fore.BLACK, Fore.LIGHTBLACK_EX, Fore.LIGHTBLUE_EX, Fore.LIGHTCYAN_EX, Fore.LIGHTGREEN_EX, Fore.LIGHTMAGENTA_EX, Fore.LIGHTRED_EX, Fore.LIGHTWHITE_EX, Fore.LIGHTYELLOW_EX]
+def colour():
+  random.choice(colours)
+  print(random.choice(colours))
